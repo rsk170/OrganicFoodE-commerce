@@ -1,0 +1,33 @@
+<div class="container mt-2">
+  <div *ngIf="(basket$ | async) === null">
+    <p>there are no items in your basket</p>
+  </div>
+
+  <div *ngIf="basket$ | async as basket">
+    <div class="pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 py-5 mb-1">
+
+          </div>
+        </div>
+        <app-basket-summary
+          (decrement)="decrementItemQuantity($event)"
+          (increment)="incrementItemQuantity($event)"
+          (remove)="removeBasketItem($event)"
+        ></app-basket-summary>
+        <div class="row">
+          <div class="col-12">
+            <app-order-sum></app-order-sum>
+            <a
+              routerLink="/checkout"
+              class="btn btn-outline-success py-2 btn-block"
+            >
+              Proceed to checkout
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

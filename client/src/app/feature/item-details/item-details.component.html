@@ -1,0 +1,66 @@
+<div class="container mt-4">
+  <div class="container">
+    <div class="card border-success mt-4" *ngIf="product">
+      <div class="card-body">
+        <table>
+          <tr>
+            <td class="w-20">
+              <!--  <img
+                src="{{ product.pictureUrl }}"
+                alt="product"
+                class="img-fliud w-100"
+              /> -->
+              <div class="col-6">
+                <ngx-gallery
+                  [options]="galleryOptions"
+                  [images]="galleryImages"
+                  style="display: inline-block; margin-bottom: 20px"
+                ></ngx-gallery>
+              </div>
+            </td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td style="vertical-align: top; text-align: left">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item item-title">{{ product.name }}</li>
+                <li class="list-group-item item-price">
+                  {{ product.price | currency }}
+                </li>
+                <li class="list-group-item item-description">
+                  {{ product.description }}
+                </li>
+                <li class="list-group-item">
+                  <b>Quanity: </b> &nbsp;
+                  <i
+                    (click)="decrementQuantity()"
+                    class="fa fa-minus-circle text-success mr-2"
+                    style="cursor: pointer; font-size: 1.3em"
+                  ></i>
+                  <span class="font-weight-bold" style="font-size: 1.5em">{{
+                    quantity
+                  }}</span>
+                  <i
+                    (click)="incrementQuantity()"
+                    class="fa fa-plus-circle text-success mx-2"
+                    style="cursor: pointer; font-size: 1.3em"
+                  ></i>
+                </li>
+                <li class="list-group-item">
+                  <button
+                    (click)="addItemToCart()"
+                    class="btn btn-outline-success btn-lg btn-block"
+                  >
+                    <i class="fa fa-shopping-cart">
+                      &nbsp; <b>Add to cart</b></i
+                    >
+                  </button>
+                </li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

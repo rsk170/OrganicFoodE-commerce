@@ -1,0 +1,110 @@
+<div class="container mt-3">
+    <div class="row">
+        <section class="col-3">
+            <ng-container *ngIf="types && brands">
+            <h4 class="header-list mt-4 mb-3"> Sort </h4>
+            <select class="custom-select mb-4" (change)="onSortSelected($event.target.value)">
+                <option *ngFor="let sort of sortOptions"
+                [value]="sort.value"> 
+                    {{sort.name}}
+                </option>
+            </select>
+            <h4 class="header-list"> Brands </h4>
+            <ul class="list-group my-3">
+                <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center" 
+                    *ngFor="let brand of brands" 
+                    [class.active]="brand.id === this.parameters.brandId"
+                    [value]="brand.id"
+                    (click)="onBrandSelected(brand.id)"
+                >
+                  {{brand.name}}
+                   <!-- <span class="badge rounded-pill text-light">{{this.totalCount}}</span> -->
+                </li>
+            </ul>
+             <h4 class="header-list"> Categories </h4>
+              <ul class="list-group my-3">
+                  <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center" 
+                    *ngFor="let type of types" aria-current="true"
+                    [class.active]="type.id === this.parameters.typeId"
+                    [value]="type.id"
+                    (click)="onTypeSelected(type.id)"
+                  > 
+                      {{type.name}} </li>
+                </ul> 
+            </ng-container>
+        </section>
+        <section class="col-9">
+            <div class="d-flex justify-content-between align-items-center pb-2">
+                <app-pagination-header
+                    [totalCount]="totalCount"
+                    [pageSize]="this.parameters.pageSize"
+                    [pageNumber]="this.parameters.pageNumber"
+                ></app-pagination-header>
+
+                <div class="form-inline" *ngIf="products">
+                    <input (keyup.enter)="onSearch()" type="text" class="form-control mr-2" #search style="width: 300px" placeholder="Search">
+                    <button (click)="onSearch()" class="btn btn-outline-info my-2"><b>Search</b></button>
+                    <button (click)="onReset()" class="btn btn-outline-success ml-2 my-2"><b>Reset</b></button>
+                </div>
+            </div>
+
+            <div [ngSwitch]="parameters.typeId">
+                <div *ngSwitchCase="2">
+                    <h1 class="title"> Flour </h1>
+                </div>
+                <div *ngSwitchCase="1">
+                    <h1 class="title"> Nuts </h1>
+                </div>
+                <div *ngSwitchCase="3">
+                    <h1 class="title"> Chutney and jams </h1>
+                </div>
+                <div *ngSwitchCase="4">
+                    <h1 class="title"> Grains and cereals </h1>
+                </div>
+                <div *ngSwitchCase="5">
+                    <h1 class="title"> Rice and pasta </h1>
+                </div>
+                <div *ngSwitchCase="6">
+                    <h1 class="title"> Yogurt </h1>
+                </div>
+                <div *ngSwitchCase="7">
+                    <h1 class="title"> Biscuits and Chocolate </h1>
+                </div> 
+              </div>
+
+              <div [ngSwitch]="parameters.brandId">
+                <div *ngSwitchCase="1">
+                    <h1 class="title-brand"> Down to Earth  </h1>
+                </div>
+                <div *ngSwitchCase="2">
+                    <h1 class="title-brand"> Naturally Yours </h1>
+                </div>
+                <div *ngSwitchCase="3">
+                    <h1 class="title-brand"> Yeo Valley Organic </h1>
+                </div>
+                <div *ngSwitchCase="4">
+                    <h1 class="title-brand"> Doves Farm  </h1>
+                </div>
+                <div *ngSwitchCase="5">
+                    <h1 class="title-brand"> Ombar </h1>
+                </div>
+                <div *ngSwitchCase="6">
+                    <h1 class="title-brand"> Nouish Oragics</h1>
+                </div>
+              </div>
+            
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col-4 mb-4" *ngFor="let item of products">
+                     <app-product-item [product]="item"></app-product-item>  <!-- [product] is the input property, product is the product itself -->
+                </div>
+              </div>
+              <div class="d-flex justify-content-center" *ngIf="totalCount > 0">
+                  <app-pagination-navigator
+                  [pageSize]="parameters.pageSize"
+                  [totalCount]="totalCount"
+                  (pageChanged)="onPageChanged($event)"
+                  ></app-pagination-navigator>
+            </div>
+        </section>
+    </div>
+</div>

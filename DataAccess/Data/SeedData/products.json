@@ -1,0 +1,354 @@
+[
+  {
+    "Name": "Almond Nuts (450 g)",
+    "Description": "Wonderfully delicious, almonds have long been revered as symbol of wellness and health. Crunchy, fresh delights that improve brain power & skin.",
+    "Price": 5.99,
+    "PictureUrl": "images/products/ALMOND-NUTS.jpeg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Walnut Giri (230 g)",
+    "Description": "These are walnut pieces which are ready to cook or eat. Can be used with many Indian dishes like cakes, desserts etc.",
+    "Price": 6.55,
+    "PictureUrl": "images/products/Walnut-Giri.jpeg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Rice Basmati Superfine (1 kg)",
+    "Description": "Rice basmati superfine is a variety of long grain rice, notable for its fragrance and delicate, pronounced flavor. Its name means “the fragrant one” in Sanskrit.",
+    "Price": 3.15,
+    "PictureUrl": "images/products/RICE-BASMATI-SUPERFINE.jpeg",
+    "ProductTypeId": 5,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Red Rice (500 g)",
+    "Description": "Red rice is high in fiber because of the bran and the flavor is much stronger than that of hulled rice, tasting more nutty.",
+    "Price": 2.67,
+    "PictureUrl": "images/products/RED-RICE.jpeg",
+    "ProductTypeId": 5,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Paratha Flour (1 kg)",
+    "Description": "Make delicious, authentic, Rajasthani Tandoori Rotis. Get the real dhaba taste of tandoori roti at home through this Tandoori Atta.",
+    "Price": 2.55,
+    "PictureUrl": "images/products/Paratha-Flour.jpeg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Rice Flour (500 g)",
+    "Description": "Rice flour is non-glutinous and is used as the base for a variety of noodles, pastries and sweets. It is Low in fat, Low in salt and No cholesterol.",
+    "Price": 2.99 ,
+    "PictureUrl": "images/products/RICE-ATTA.jpeg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Apricot Ginger Chutney",
+    "Description": "Popularly known as ‘Khubani ki Chutney’.A Chutney made of ginger and apricots. Rich in minerals. Goes well with meats, breads or tarts.",
+    "Price": 3.00,
+    "PictureUrl": "images/products/APPLE-WALNUT-CHUTNEY-1.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Sweet Mango Chutney",
+    "Description": "This chutney has great aroma of exotic herbs and mangoes. Can be used as a spread on all kinds of food like paranthas, pakoras, khakras or snacks.",
+    "Price": 3.15,
+    "PictureUrl": "images/products/SWEET-MANGO-CHUTNEY.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Wheat Grain (5 kg)",
+    "Description": "Wheat grain shekhawati is sweet, brown, cures excessive humor of wind and bile in the body, rich in proteins, increases virility, gives strength, is very nutritious and makes the chapatti soft as well as chewy.",
+    "Price": 4.99,
+    "PictureUrl": "images/products/Wheat-Grain.jpeg",
+    "ProductTypeId": 4,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Quinoa (250 g)",
+    "Description": "Gluten free Organic Super-Grain with Complete Protein, Fibers and Minerals. A Complete source of protein, rich in minerals & fibers.",
+    "Price": 2.67 ,
+    "PictureUrl": "images/products/PROCESSED-QUINOA.jpeg",
+    "ProductTypeId": 4,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Gluten Free Multigrain Pasta 200g",
+    "Description": "This delicious pack of gluten free multi-grain pasta is made with the finest blend of high quality grains. It is made in a gluten free environment and is a good source of dietary fiber.",
+    "Price": 4.78 ,
+    "PictureUrl": "images/products/pasta-1.jpg",
+    "ProductTypeId": 5,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Gluten Free Quinoa Pasta 200G",
+    "Description": "This delicious pack of gluten free quinoa pasta is made with the finest blend of high quality quinoa grains. ",
+    "Price": 4.75,
+    "PictureUrl": "images/products/pasta-2.jpg",
+    "ProductTypeId": 5,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Gluten-free Chickpea Pasta 200g",
+    "Description": "Naturally Yours chickpea Pasta is a gluten-free pasta which is a rich source of plant based proteins, fiber and minerals. Studies have shown that legume based pastas contain four times the amount of fiber found in traditional pasta and about one third less carbohydrates.",
+    "Price": 5.00,
+    "PictureUrl": "images/products/pasta-3.jpg",
+    "ProductTypeId": 5,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "SUPER THICK KERNED NATURAL",
+    "Description": "It’s high in protein, low in fat and is naturally low in sugar – perfect for breakfast, pudding and post-gym snacking.",
+    "Price": 2.99,
+    "PictureUrl": "images/products/Kerned-web-450g-5fat.png",
+    "ProductTypeId": 6,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "NATURAL YOGURT WITH ALMOND BUTTER",
+    "Description": "Our Natural Nut Butter Split Pot makes for a nutritious and handy snack for any time of day!",
+    "Price": 3.15,
+    "PictureUrl": "images/products/NaturalNutButter.png",
+    "ProductTypeId": 6,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "NATURAL YOGURT WITH ALMOND BUTTER",
+    "Description": "Our Natural Nut Butter Split Pot makes for a nutritious and handy snack for any time of day!",
+    "Price": 2.77,
+    "PictureUrl": "images/products/BananaNutButter.png",
+    "ProductTypeId": 6,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "MANGO & PASSION FRUIT KEFIR",
+    "Description": "Get ready, our new Kefir is Kef-here! This ancient way of fermenting yogurt has been around for ages so we thought it was high time we brought you one, made here in the valley.",
+    "Price": 4.00,
+    "PictureUrl": "images/products/Kefir-Mango-Passion-Yoghurt.png",
+    "ProductTypeId": 6,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "STRAWBERRY KEFIR",
+    "Description": "Get ready, our new Kefir is Kef-here! This ancient way of fermenting yogurt has been around for ages so we thought it was high time we brought you one, made here in the valley.",
+    "Price": 4.00,
+    "PictureUrl": "images/products/Kefir-Strawberry-Yoghurt.png",
+    "ProductTypeId": 6,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "ORGANIC RASPBERRY JAM",
+    "Description": "A traditional jam handmade with ripe English-grown organic raspberries, cooked in small batches for an intense, full flavour. Swirl into yogurt, spread into a sponge or stir into a sauce.",
+    "Price": 3.99,
+    "PictureUrl": "images/products/organic-raspberry-jam-235g-1-800x499.jpg",
+    "ProductTypeId": 3,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "ORGANIC ALE HOUSE CHUTNEY",
+    "Description": "A rich, full-flavoured chutney, packed with crunchy organic vegetables, hearty West Country stout and a selection of aromatic spices. Delicious with strong cheeses, cold meats or spicy curries.",
+    "Price": 3.99,
+    "PictureUrl": "images/products/organic-ale-house-chutney-200g-1-800x498.jpg",
+    "ProductTypeId": 3,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "ORGANIC SPELT GRAIN",
+    "Description": "Deliciously nutty spelt grain with the outer layer of bran left on. Makes a tasty addition to casseroles, soups or salads – or as a high-fibre substitute for rice.",
+    "Price": 2.50,
+    "PictureUrl": "images/products/organic-spelt-grain-1-800x498.jpg",
+    "ProductTypeId": 4,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "ORGANIC SPELT WHOLEGRAIN PASTA – CASARECCE",
+    "Description": "This unique, twisty pasta is made in the UK by Sharpham Park using their award-winning organic spelt flour. ",
+    "Price": 3.99,
+    "PictureUrl": "images/products/organic-spelt-wholegrain-pasta-casarecce-1-800x498.jpg",
+    "ProductTypeId": 5,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "ORGANIC SPELT WHITE PASTA – GIGLI RIGATI",
+    "Description": "This attractively shaped pasta is produced using a traditional bronze die, giving it a rougher surface, which helps sauces stick to it. ",
+    "Price": 3.99,
+    "PictureUrl": "images/products/organic-spelt-white-pasta-gigli-rigati-1-800x498.jpg",
+    "ProductTypeId": 5,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "ORGANIC SPELT BAKER’S BLEND FLOUR",
+    "Description": "A blend of 60% organic wholegrain flour and 40% white spelt flour, specially created to bake the perfect loaf.",
+    "Price": 3.50,
+    "PictureUrl": "images/products/organic-spelt-bakers-blend-flour-1-800x498.jpg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "ORGANIC WHOLEGRAIN SPELT FLOUR",
+    "Description": "100% organic Sharpham Park ground wholegrain spelt flour. A delicious, nutty tasting flour which gives a great depth of flavour to your baking.",
+    "Price": 3.10,
+    "PictureUrl": "images/products/organic-wholegrain-spelt-flour-800x498.jpg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "ORGANIC SPELT MILLERS MUESLI",
+    "Description": "Malty, toasted spelt flakes mixed with raisins, dates and apricots, and a crunchy combination of walnuts, almonds and sunflower seeds. All of it organic.",
+    "Price": 4.25,
+    "PictureUrl": "images/products/organic-millers-muesli-1-800x498.jpg",
+    "ProductTypeId": 4,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Doves Farm Organic Stoneground Wholemeal Spelt Flour 1kg",
+    "Description": "The delicious, wheaty, nutty flavour of this stoneground ancient grain flour works well in all baking. ",
+    "Price": 3.00,
+    "PictureUrl": "images/products/DF_WMSpeltFlour2020.jpg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Doves Farm Organic Stoneground Self Raising Wholemeal Flour 1kg",
+    "Description": "Very fine, stoneground organic flour with raising agents for light and airy wholemeal cakes. ",
+    "Price": 1.75,
+    "PictureUrl": "images/products/DF_SRWholemealFlour2020.jpg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Doves Farm Organic Strong Wholemeal Bread Flour 1.5kg",
+    "Description": "Carefully milled, organic, strong flour for tasty wholemeal bread baking. ",
+    "Price": 2.00,
+    "PictureUrl": "images/products/DF_StrongWholemealBreadFlour2020.jpg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Doves Farm Organic Wholemeal Digestive Biscuits 400g",
+    "Description": "Delicious flavourful biscuits that will leave you reaching for more. Baked with wholemeal flour, certified sustainable palm oil and a touch of malt for richness",
+    "Price": 2.00,
+    "PictureUrl": "images/products/DF_Digestives400g2020.jpg",
+    "ProductTypeId": 7,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Doves Farm Organic Fruity Oat Biscuits 200g",
+    "Description": "Fabulously fruity oat biscuits that are sure to please. Baked with oats, juicy currants, certified sustainable palm oil and a touch of malt for richness.",
+    "Price": 1.50,
+    "PictureUrl": "images/products/DF_FruityOat200g2020.jpg",
+    "ProductTypeId": 7,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Doves Farm Organic High Protein Wheat Grain 25kg",
+    "Description": "A 25kg sack of cleaned wheat grain, ready for milling or further processing. This grain is high in protein and ideal for breadmaking.",
+    "Price": 21.00,
+    "PictureUrl": "images/productsWHEIMP25_DF_High_Protein_Wheat_Grain_25kg.jpg",
+    "ProductTypeId": 4,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Buttons 72% Cacao",
+    "Description": "Our 72% Cacao chocolate, in button form! Delicate and well balanced, with floral, jasmine-like tasting notes, these bean to bar buttons are made with all-natural ingredients, and have billions of added live cultures.",
+    "Price": 1.49,
+    "PictureUrl": "images/products/shop_72-_BUTTONS_2x_caf9a708-4c15-4525-9dbd-b4b9a3237e73_600x.jpg",
+    "ProductTypeId": 7,
+    "ProductBrandId": 5
+  },
+  {
+    "Name": "Centres Hazelnut Truffle (70g) case of 10",
+    "Description": "The newest and most indulgent bar in the Ombar range. Velvety hazelnut truffle encased in a rich and smooth 60% chocolate shell. Rich, nutty and delicious.",
+    "Price": 29.90,
+    "PictureUrl": "images/products/CentresHazelnut70g_88ec1c41-3438-443e-916d-3b9258f56957_600x.jpg",
+    "ProductTypeId": 7,
+    "ProductBrandId": 5
+  },
+  {
+    "Name": "100% Cacao (35g) case of 10",
+    "Description": "Pure, 100% unroasted fine-flavoured Ecuadorian cacao in its most rich and simple form.",
+    "Price": 16.99,
+    "PictureUrl": "images/products/100_Cacao35g_71065f4e-7520-440d-98bb-033404035927_600x.jpg",
+    "ProductTypeId": 7,
+    "ProductBrandId": 5
+  },
+  {
+    "Name": "90% Cacao (35g) case of 10",
+    "Description": "This 90% Cacao bar is ideal for real chocolate lovers. We use Nacional Arriba cacao sourced from Ecuador, combined with just 10% coconut sugar for a subtle sweetness, whilst still maintaining the richness of the bar and resulting in a smooth, melt away experience.",
+    "Price": 16.99,
+    "PictureUrl": "images/products/90_Cacao35g_49e18f59-46cf-47b3-a870-fca433eb0f1f_600x.jpg",
+    "ProductTypeId": 7,
+    "ProductBrandId": 5
+  },
+  {
+    "Name": "Chocolate Coconut Cookies",
+    "Description": "Nourish Organics Chocolate Coconut Cookies are delicious chocolaty bites are our favourite sweet treat. Made up of healthy Cocoa, Coconut, Oats, Cashews and Cranberries. ",
+    "Price": 5.99,
+    "PictureUrl": "images/products/16c_1200x.jpg",
+    "ProductTypeId": 7,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "Almond Buckwheat Cookies",
+    "Description": "Our Almond Buckwheat Cookies are a gluten-free delight! Wholesome buckwheat packs these bites with energizing protein and fiber, while heart-healthy almonds add a nutty crunch",
+    "Price": 4.50,
+    "PictureUrl": "images/products/17c_1600x.jpg",
+    "ProductTypeId": 7,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "Honey Roasted Walnuts",
+    "Description": "Oh-so-good-for-you walnuts are roasted with golden honey to make this delightful treat. ",
+    "Price": 5.00,
+    "PictureUrl": "images/products/9_1600x.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "Honey Roasted Cashews",
+    "Description": "A sweet dollop of honey makes our roasted cashews so delicious! Packed with strengthening antioxidants like magnesium, selenium and copper, these yummy bites are a superfood in disguise",
+    "Price": 5.50,
+    "PictureUrl": "images/products/8_1600x.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "Cocoa Crunch Granola",
+    "Description": "This is the perfect power breakfast for all you chocolate lovers! We’ve added antioxidant-rich organic cacao nibs to our hearty blend of millet, quinoa, amaranth and nuts for a healthy chocolatey touch.",
+    "Price": 5.15,
+    "PictureUrl": "images/products/COCOA_CRUNCH_Pack_of_1_1600x.jpg",
+    "ProductTypeId": 4,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "Seeds + Nuts Muesli Natural, Healthy Dried Fruits Mixture",
+    "Description": "Celebrate your morning with a delicious bowlful of our superfood-packed Seeds and Nuts Muesli! Raisins, apricots and apples deliver sweet bursts of flavor alongside toasty nuts,",
+    "Price": 4.99,
+    "PictureUrl": "images/products/SEEDS_Nuts_Pack_of_1_1600x.jpg",
+    "ProductTypeId": 4,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "Oats Granola",
+    "Description": "Say ‘hello!’ to your day with our super hearty, super satisfying Oats Granola. Nourish Organics Oats Granola is an ideal breakfast choice for health conscious people.",
+    "Price": 4.57,
+    "PictureUrl": "images/products/OATS_GRANOLA_Pack_of_1_4d901295-3a14-419a-9fd5-226b96090862_1600x.jpg",
+    "ProductTypeId": 4,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "Lean Muesli",
+    "Description": "Our delicious Lean Muesli is unprocessed, unrefined, and completely whole & natural! With crunchy makhanas and  a delicious mix of popped amaranth, fruits, nuts and seeds.",
+    "Price": 4.40,
+    "PictureUrl": "images/products/LEAN_Pack_of_1_1600x.jpg",
+    "ProductTypeId": 4,
+    "ProductBrandId": 6
+  }
+]

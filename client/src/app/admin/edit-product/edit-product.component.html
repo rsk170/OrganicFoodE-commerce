@@ -1,0 +1,24 @@
+<section class="product-edit mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="tab-panel">
+          <tabset class="product-tabset">
+            <tab heading="Edit Product">
+              <div class="col-lg-8">
+                <app-edit-product-form
+                  [product]="productFormValues"
+                  [brands]="brands"
+                  [types]="types"
+                ></app-edit-product-form>
+              </div>
+            </tab>
+            <tab heading="Edit Photos">
+              <app-edit-product-photos [product]="product"></app-edit-product-photos>
+            </tab>
+          </tabset>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

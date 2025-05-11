@@ -1,0 +1,36 @@
+<div class="mt-4" [formGroup]="checkoutForm">
+  <div class="row">
+    <div class="form-group col-12" formGroupName="paymentForm">
+      <app-text-input
+        [label]="'Name on card'"
+        formControlName="nameOnCard"
+      ></app-text-input>
+    </div>
+    <div class="form-group col-6" formGroupName="paymentForm">
+      <app-text-input
+        [label]="'Card Number'"
+        formControlName="cardNumber"
+      ></app-text-input>
+    </div>
+    <div class="form-group col-3" formGroupName="paymentForm">
+      <app-text-input
+        [label]="'Expiration Date'"
+        formControlName="cardExpiry"
+      ></app-text-input>
+    </div>
+    <div class="form-group col-3" formGroupName="paymentForm">
+      <app-text-input [label]="'CVC'" formControlName="cvv"></app-text-input>
+    </div>
+  </div>
+</div>
+
+<div
+  class="float-none d-flex justify-content-between flex-column flex-lg-row mb-5"
+>
+  <button class="btn btn-outline-primary" cdkStepperPrevious>
+    <i class="fa fa-angle-left"></i> Back to Review
+  </button>
+  <button [disabled]="checkoutForm.get('paymentForm').invalid" class="btn btn-primary" (click)="submitOrder()">
+    Submit Order<i class="fa fa-angle-right"></i>
+  </button>
+</div>

@@ -1,0 +1,43 @@
+.cart-number {
+    position: absolute;
+    min-height: 25px;
+    min-width: 25px;
+    border-radius: 50%;
+    font-size: 1em;
+    background: #92CF34;
+    color: white;
+    text-align: center;
+    top: -12px;
+    right: 32px;
+}
+
+.heart-number {
+    position: absolute;
+    min-height: 25px;
+    min-width: 25px;
+    border-radius: 50%;
+    font-size: 1em;
+    background: #F15433;
+    color: white;
+    text-align: center;
+    top: -12px;
+    right: 32px;
+}
+
+a {
+    text-decoration: none;
+    color: #343a40;
+    font-weight: bolder;
+
+    &.active {
+        color: #92CF34;
+    }
+}
+
+.logo {
+    cursor: pointer;
+
+    &:focus {
+        outline: none;
+    }
+}
